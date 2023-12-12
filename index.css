@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    color: grey;
+}
+main{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.icon img{
+    width: 268px;
+    height: 33px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 13.6rem;
+    margin-right: 12.5rem;
+}
+ul{
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    float: right;
+    margin-top: 0.5rem;
+}
+li{
+    display: flex;
+    gap: 1rem;
+}
+.first img{
+    width: 40px;
+    height: 40px;
+}
+.first{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.head{
+    margin-top: 24px;
+    margin-bottom: 35px;
+    font-size: 31px;
+    letter-spacing: 1px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding-right: 45px;
+    padding-left: 40px;
+    height: 50px;
+}
+.we{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 75px;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    text-align: justify;
+    font-size: 16px;
+    margin-left: 13.6rem;
+    margin-right: 13.3rem;
+    line-height: 1.4;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-left: 11.5rem;
+    margin-right: 12rem;
+    margin-bottom: 1rem;
+    gap: 2rem;
+}
+#second p, img, select{
+    font-size: 21px;
+    padding-left: 2.5rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+#second .title{
+    font-size: 34px;
+}
+#second img{
+    width: 25px;
+    height: 25px;
+    margin-top: 2rem;
+}
+.box-one{
+    background-color: #00ccb1;
+    border-radius: 12px;
+}
+.box-one select{
+    background-color: #00ccb1;
+}
+.box-two{
+    background-color: #3D83DF;
+    border-radius: 12px;
+}
+.box-two select{
+    background-color: #3D83DF;
+}
+.box-three{
+    background-color: #1B2734;
+    border-radius: 12px;
+}
+.box-three select{
+    background-color: #1B2734;
+    margin-top: 2rem;
+}
+select{
+    padding: 0px;
+    border-radius: 5px;
+    margin-left: 2.5rem;
+    margin-top: 6rem;
+    border: none;
+    margin-bottom: 1rem;
+    text-decoration: underline;
+}
+
+.tenlogo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    row-gap: 2rem;
+}
+#third img{
+    height: 0.8rem;
+    width: 5rem;
+}
+.third p{
+    font-size: 1.4rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+.third{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 16.3rem;
+    margin-right: 22rem;
+    margin-bottom: 3rem;
+    gap: 5rem;
+}
+
+.fourth{
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    /* padding-left: 5rem; */
+    background-color: #d0faf4;
+
+}
+.one-one{
+    padding-left: 9rem;
+    padding-right: 26rem;
+}
+.one-one h2{
+    font-weight: 300;
+    margin-top: 5rem;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+    margin-bottom: 2rem;
+
+}
+.one-one p{
+    font-size: 15px;
+    margin-right: -10rem;
+}
+
+.one-two img{
+    width: 400px;
+    height: 300px;
+}
+.count{
+    background-color: white
+    padding-bottom: 1rem;
+    
+}
+.pat{
+    background-color: white
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.visit{
+    background-color: white;
+    padding-bottom: 3rem;
+}
+.doc{
+    background-color: white;
+    padding-bottom: 3rem;
+}
+
+.two h3{
+    font-size: 2em;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+.two p{
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0.5rem;
+    
+}
+.count img{
+    width: 25px;
+    height: 29px;
+    padding-top: 2rem;
+}
+.pat img{
+    width: 25px;
+    height: 20px;
+    padding-top: 3rem;
+}
+.two-two img{
+    width: 25px;
+    height: 25px;
+    padding-top: 3rem;
+}
+.two{
+    display: flex;
+}
