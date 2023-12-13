@@ -36,6 +36,7 @@ li{
     gap: 1rem;
 }
 /* below are the properties for the first to seventh sections properties and value */
+/* first section */
 .first img{
     width: 40px;
     height: 40px;
@@ -75,6 +76,7 @@ li{
     margin-right: 13.3rem;
     line-height: 1.4;
 }
+/* second section */
 .grid-container{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -132,7 +134,7 @@ select{
     margin-bottom: 1rem;
     text-decoration: underline;
 }
-
+/* third section */
 .tenlogo{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -158,6 +160,7 @@ select{
     margin-bottom: 3rem;
     gap: 5rem;
 }
+/* fourth section */
 .fourth{
     display: flex;
     font-family: 'Work Sans', sans-serif;
@@ -252,6 +255,7 @@ select{
     height: 25px;
     padding-top: 2.5em;
 }
+/* fifth section */
 .fifth {
     display: flex;
     flex-direction: column;
@@ -274,6 +278,7 @@ select{
     padding-left: 30em;
     padding-right: 30em;
 }
+/* sixth section */
 .sixth{
     display: grid;
     grid-template-columns: auto auto auto ;
@@ -338,6 +343,7 @@ select{
 .mex{
     margin-right: 4.2em;
 }
+/* seventh section */
 .seventh{
     display: flex;
     flex-direction: column;
