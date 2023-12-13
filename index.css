@@ -3,16 +3,17 @@
     padding: 0;
 }
 body{
+    /* following are the body properties and their value */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     background-color: white;
     color: grey;
 }
+/* the below are navbar properties and their values */
 main{
     margin-top: 1.2rem;
     margin-bottom: 1.2rem;
 }
-
 .icon img{
     width: 268px;
     height: 33px;
@@ -20,7 +21,7 @@ main{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin-left: 13.6rem;
+    margin-left: 11.5rem;
     margin-right: 12.5rem;
 }
 ul{
@@ -34,6 +35,7 @@ li{
     display: flex;
     gap: 1rem;
 }
+/* below are the properties for the first to seventh sections properties and value */
 .first img{
     width: 40px;
     height: 40px;
@@ -56,6 +58,7 @@ li{
     padding-right: 45px;
     padding-left: 40px;
     height: 50px;
+    color: #00b39b;
 }
 .we{
     display: flex;
@@ -145,6 +148,7 @@ select{
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     margin-top: 1rem;
+    color: #00b39b;
 }
 .third{
     display: grid;
@@ -154,66 +158,84 @@ select{
     margin-bottom: 3rem;
     gap: 5rem;
 }
-
 .fourth{
     display: flex;
     font-family: 'Work Sans', sans-serif;
-    /* padding-left: 5rem; */
     background-color: #d0faf4;
-
 }
 .one-one{
     padding-left: 9rem;
-    padding-right: 26rem;
 }
 .one-one h2{
     font-weight: 300;
     margin-top: 5rem;
     font-size: 1.8rem;
-    padding-right: 1rem;
     margin-bottom: 2rem;
-
 }
 .one-one p{
     font-size: 15px;
-    margin-right: -10rem;
+    
 }
-
 .one-two img{
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 330px;
+    margin-top: 2em;
+    margin-left: 4em;
+}
+.two{
+    display: flex;
+    text-align: center;
+    gap: 3rem;
+    padding-right: 6rem;
+    padding-left: 8em;
+}
+.two-one{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 230px;
+    height: 400px;
+    margin-top: 4.5em;
+}
+.two-two{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 230px;
+    height: 400px;
+    margin-top: 3em;
 }
 .count{
-    background-color: white
-    padding-bottom: 1rem;
+    background-color: white;
+    padding-bottom: 2.5rem;
+    padding-left: 1em;
+    padding-right: 1em;
     
 }
 .pat{
-    background-color: white
-    padding-bottom: 3rem;
+    background-color: white;
+    padding-bottom: 4rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 .visit{
     background-color: white;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 .doc{
     background-color: white;
-    padding-bottom: 3rem;
+    padding-bottom: 3.5rem;
 }
-
 .two h3{
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     padding-top: 1rem;
 }
 .two p{
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
-    padding-top: 0.5rem;
-    
+    padding-top: 0.5rem;   
 }
 .count img{
     width: 25px;
@@ -228,8 +250,135 @@ select{
 .two-two img{
     width: 25px;
     height: 25px;
-    padding-top: 3rem;
+    padding-top: 2.5em;
 }
-.two{
+.fifth {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 6rem;
+}
+.fifth h3{
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2em;
+    color: #00b39b;
+    font-weight: 300;
+}
+.fifth p{
+    margin: 1.6em 0;
+    line-height: 1.7;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30em;
+    padding-right: 30em;
+}
+.sixth{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-top: 8.5rem;
+    width: 0em;
+    gap: 0.7em;
+    margin-left: 12.5rem;
+}
+.sixth img{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: -1.5rem;
+}
+.sixth .button{
+    display: flex;
+    margin-top: 1.3em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    width: 18em;
+    height: 2.3em;
+    font-family: 'Roboto', sans-serif;
+}
+.sixth p{
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.btn{
+    background-color: #3D83DF;
+    font-size: 0.7em;
+    padding: 1em;
+    padding-bottom: 2em;
+    border-radius: 0.5em;
+    border: none;
+    font-weight: 700;
+    height: 3.5em;
+    color: white;
+}
+.war{
+    margin-right: 5.5em; 
+}
+.barce{
+    margin-right: 4.9em;
+}
+.muni{
+    margin-right: 6em;
+}
+.insta{
+    margin-right: 5.8em;
+}
+.rom{
+    margin-right: 6.8em;
+}
+.bolog{
+    margin-right: 5.6em;
+}
+.curit{
+    margin-right: 5.9em;
+}
+.riode{
+    margin-right: 3em;
+}
+.mex{
+    margin-right: 4.2em;
+}
+.seventh{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+.seventh h1{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 2.2em;
+    font-weight: 300;
+    color: #333;
+    text-align: center;
+}
+.seventh .btn{
+    margin-left: 45em;
+    margin-top: 1.5em;
+    margin-bottom: 6em;
+    width: 14rem;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.04em;
+    background-color: #3D83DF;
+    padding: 0.8em;
+    padding-bottom: 1em;
+    border-radius: 0.3em;
+    border: none;
+    font-weight: 700;
+    height: 3.2em;
+    color: white;
+}
+/* footer properties and values */
+.foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9em;
+    opacity: 0.8;
+}
+.lead{
+    margin-bottom: 2em;
+}
+.last{
+    margin-bottom: 2em;
 }
